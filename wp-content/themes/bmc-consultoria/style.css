@@ -1,0 +1,107 @@
+/*
+Theme Name: BMC Consultoria
+Text Domain: BMC
+Author: Criativerso
+Author URI: https://criativerso.com.br/
+*/
+
+@font-face {
+  font-family: 'Louis George Cafe';
+  src: url('./assets/font/LouisGeorgeCafeLight-.eot');
+  src: url('./assets/font/LouisGeorgeCafeLight-.eot?#iefix') format('embedded-opentype'),
+      url('./assets/font/LouisGeorgeCafeLight-.woff2') format('woff2'),
+      url('./assets/font/LouisGeorgeCafeLight-.woff') format('woff'),
+      url('./assets/font/LouisGeorgeCafeLight-.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Louis George Cafe';
+}
+
+h1 {
+  font-size: 3.9rem!important;
+}
+
+img {
+  width: 100%;
+}
+
+#header-desktop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(15, 15, 15, 0.5);
+  padding: 10px 0;
+}
+
+#header-desktop img {
+  width: 80%;
+}
+
+#inicio {
+  background-image: url('https://tairatecnologia.com.br/bmc-consultoria/wp-content/themes/bmc-consultoria/assets/images/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#inicio-conteudo {
+  padding: 28vh 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+footer {
+  background-color: #0f0f0f;
+  padding: 70px 0;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+}
+
+footer .bmc {
+  width: 70%;
+  margin-left: 15%;
+}
+
+footer .cvm {
+  width: 36%;
+  margin-top: 30px;
+  margin-left: 32%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer h3 {
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4.5rem!important;
+  }
+
+  #inicio-conteudo {
+    padding: 38vh 0!important;
+  }
+
+  footer h3 {
+    margin-top: 0;
+  }
+}
